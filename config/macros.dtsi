@@ -2,13 +2,13 @@ macro_macos_abmelden: macro_macos_abmelden{
 compatible = "zmk,behavior-macro";
 label = "macro_macos_abmelden";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp LCMD>, <&kp Q>;
+bindings = <&kt LCTRL>, <&kt LCMD>, <&kp Q>;
 };
 macro_redo: macro_redo{
 compatible = "zmk,behavior-macro";
 label = "macro_redo";
 #binding-cells = <0>;
-bindings = <&kp RCMD>, <&kp LEFT_SHIFT>, <&kp Z>;
+bindings = <&kp K_UNDO>, <&kp LEFT_SHIFT>, <&kp Z>;
 };
 macro_undo: macro_undo{
 compatible = "zmk,behavior-macro";
